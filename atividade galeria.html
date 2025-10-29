@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de foto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Mulish';
+        }
+
+        .container {
+            width: 1240px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            height: 80px;
+            align-items: center;
+            gap: 50px;
+        }
+
+        header a {
+            color: #202024;
+            text-decoration: none;
+        }
+
+        header input {
+            flex: 1;
+            border: none;
+            padding: 5px;
+            background: #EEEEEE;
+            border-radius: 5px;
+        }
+
+        main {
+            background: rgb(255, 212, 249);
+            
+        }
+        .fotos {
+            flex-wrap: wrap;
+            row-gap: 15px;
+            gap: 15px;
+            display: flex
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header class="container">
+        <img src="logo.png" alt="logo">
+        <a href="#">Home</a>
+        <a href="#">Galeria</a>
+        <input type="text" name="busco" id="busca" placeholder="Pesquise por imagens e coleções">
+        <img src="perfil.png" alt="perfil">
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Galeria</h1>
+            <div class="fotos">
+                <div class="foto">
+                    <img src="primeira imagem.png" alt="foto">
+                    <p>Workspace Elétrica</p>
+                    <p class="tag">tag</p>
+                </div>
+                <div class="foto">
+                    <img src="seguda imagem.png" alt="foto">
+                    <p>Colméia</p>
+                    <p class="tag">tag</p>
+                </div>
+                <div class="foto">
+                    <img src="terceira imagem.png" alt="foto">
+                    <p>Show de Luzes</p>
+                    <p class="tag">tag</p>
+                </div>
+                <div class="foto">
+                    <img src="quarta imagem.png" alt="foto">
+                    <p>Dark and Red</p>
+                    <p class="tag">tag</p>
+                </div>
+                <div class="foto">
+                    <img src="quinta imagem.png" alt="foto">
+                    <p>Setup de Escritor</p>
+                    <p class="tag">tag</p>
+                </div>
+                <div class="foto">
+                    <img src="sexta imagem.png" alt="foto">
+                    <p>Deep Purple</p>
+                    <p class="tag">tag</p>
+                </div>
+                <div class="foto">
+                    <img src="setima imagem.png" alt="foto">
+                    <p>Organização e grids</p>
+                    <p class="tag">tag</p>
+                </div>
+                <div class="foto">
+                    <img src="oitava imagem.png" alt="foto">
+                    <p>Ergonomia e cores</p>
+                    <p class="tag">tag</p>
+                </div>
+                <div class="foto">
+                    <img src="nona imagem.png" alt="foto">
+                    <p>Multi=Screen</p>
+                    <p class="tag">tag</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 - Web Gallery</p>
+    </footer>
+</body>
+</html>
